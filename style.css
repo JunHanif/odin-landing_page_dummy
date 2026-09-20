@@ -12,7 +12,8 @@ body {
     flex-direction: column;
 }
 
-nav, header {
+nav,
+header {
     background-color: #1F2937;
 
 }
@@ -21,8 +22,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    margin: 16px;
+    padding: 16px;
 }
 
 .header-logo {
@@ -36,7 +36,6 @@ a {
     list-style-type: none;
     color: #E5E7EB;
     text-decoration-line: none;
-
     display: flex;
     gap: 16px;
 }
@@ -44,9 +43,9 @@ a {
 .main-container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 16px;
     padding: 24px;
-    flex: 1;
 }
 
 h1 {
@@ -86,6 +85,7 @@ p {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin: 16px;
 }
 
 .secondary-info {
@@ -99,6 +99,18 @@ p {
     flex-direction: column;
     align-items: center;
     justify-self: center;
+}
+
+.card img {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.card p {
+    color: #1F2937;
+    text-align: center;
 }
 
 .quote {
@@ -124,8 +136,24 @@ p {
     background-color: #3882F6;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 48px 96px;
+    padding: 48px;
+    border-radius: 10px;
 }
+
+.cta-text {
+    display: flex;
+}
+
+.cta-text h3 {
+    color: #F9FAF8;
+}
+
+.cta-text p {
+    color: #E5E7EB;
+}
+
 
 footer {
     display: flex;
